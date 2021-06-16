@@ -42,6 +42,7 @@ public class View extends JFrame {
 	
 	public void print(ArrayList<Person> list) {
 		this.list.clear();
+		//TODO list.sort.comperator
 		for(Person p : list) {
 			this.list.add(p.toString());
 		}
