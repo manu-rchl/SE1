@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2021-06-16T22:19:24.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="-dkzaEi3i1W2EURE6hYL" version="14.7.10" type="github">
+  <diagram id="wc_iNOf1HoAX3hDXFNCZ" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aPWQ8EO4A877GXkCU_MV-1" value="Window Title" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="140" width="400" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="aPWQ8EO4A877GXkCU_MV-3" value="Pesonenkartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="160" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPWQ8EO4A877GXkCU_MV-5" value="DHBW-Kartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="349" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPWQ8EO4A877GXkCU_MV-6" value="" style="swimlane;startSize=0;strokeColor=#000000;fillColor=#ffffff;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="150" y="240" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="aPWQ8EO4A877GXkCU_MV-7" value="1 - Colin | Position: S, Durchschnitt: 5,0&lt;br&gt;2 - Lisa | Position: S, Durchschnitt: 1 ,2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="250" width="330" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
