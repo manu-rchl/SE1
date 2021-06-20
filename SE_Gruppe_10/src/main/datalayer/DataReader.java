@@ -23,6 +23,7 @@ public class DataReader {
 		dhbw = new ArrayList<>();
 	}
 	//Hallo
+	//Servus
 	public int loadData(String path) {
 		System.out.println("DR loadData");
 		people.clear();
