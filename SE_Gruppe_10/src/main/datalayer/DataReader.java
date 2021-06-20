@@ -22,9 +22,6 @@ public class DataReader {
 		people = new ArrayList<>();
 		dhbw = new ArrayList<>();
 	}
-	//Hallo
-	//Servus
-	public static void main(String[] args) {
 
 	}
 	public int loadData(String path) {
