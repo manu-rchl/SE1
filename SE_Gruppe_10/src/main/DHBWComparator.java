@@ -9,6 +9,8 @@ public class DHBWComparator  implements Comparator<Person>{
 		if(Character.getNumericValue(p1.getPosition()) - Character.getNumericValue(p2.getPosition()) != 0) {
 			if(p1.getPosition() == 'S')
 				return -1;
+			else 
+				return 1;
 			
 		}
 		if(p1.getPosition() == 'S') {
