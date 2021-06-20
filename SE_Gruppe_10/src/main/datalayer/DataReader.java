@@ -24,6 +24,9 @@ public class DataReader {
 	}
 	//Hallo
 	//Servus
+	public static void main(String[] args) {
+
+	}
 	public int loadData(String path) {
 		System.out.println("DR loadData");
 		people.clear();
