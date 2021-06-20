@@ -1,15 +1,9 @@
 package main.presentationlayer;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.ArrayList;
-
-import javax.swing.JFileChooser;
 
 import main.Person;
 import main.applicationlayer.DataMerger;
-
-
 
 public class Controller {
 
@@ -45,7 +39,7 @@ public class Controller {
 	public void test() {
 		DataMerger.getInstance().loadPeopleFile("");
 		model.readPeopleData(DataMerger.getInstance().readPeopleFile());
-		view.print(model.getPeopleData());
+		view.printPeople(model.getPeopleData());
 		DataMerger.getInstance().loadDHBWFile("");
 		model.readDHBWData(DataMerger.getInstance().readDHBWFile());
 		ArrayList<Person> people = model.getDHBWData();
@@ -53,39 +47,39 @@ public class Controller {
 		for(Person p : people) {
 			System.out.println(p.toString());
 		}
-		view.print(model.getDHBWData());
+		view.printDHBW(model.getDHBWData());
 	}
-	
-    public class LoadPeopleData implements ActionListener {
-	   
-	   public LoadPeopleData() { }
-
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			JFileChooser chooser = new JFileChooser();
-			chooser.setCurrentDirectory(new java.io.File("."));
-			chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-			chooser.setAcceptAllFileFilterUsed(false);
-			/*
-			 * HIER EINFÜGEN, NUR CSV DATEIEN LESEN
-			 */
-			int rueckgabeWert = chooser.showOpenDialog(null);
-			if(rueckgabeWert == JFileChooser.APPROVE_OPTION){
-//				view.printLog("Wahlverzeichnis geladen: '"+chooser.getSelectedFile().getName()+"'.");
-				int i = DataMerger.getInstance().loadPeopleFile(chooser.getSelectedFile().getAbsolutePath());
-//				convertLogMessageFromReader(i);
-				model.readPeopleData(DataMerger.getInstance().readPeopleFile());
-//				view.loadComboBoxContent(model.getDistrictNames());
-//				if(i != 0) {
-//					view.clear();
-//				} else {
-//					loadData();
-//					printData();
-//				}
-			}
+//	
+//    public class LoadPeopleData implements ActionListener {
+//	   
+//	   public LoadPeopleData() { }
+//
+//		@Override
+//		public void actionPerformed(ActionEvent e) {
+//			JFileChooser chooser = new JFileChooser();
+//			chooser.setCurrentDirectory(new java.io.File("."));
+//			chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+//			chooser.setAcceptAllFileFilterUsed(false);
+//			/*
+//			 * HIER EINFÜGEN, NUR CSV DATEIEN LESEN
+//			 */
+//			int rueckgabeWert = chooser.showOpenDialog(null);
+//			if(rueckgabeWert == JFileChooser.APPROVE_OPTION){
+////				view.printLog("Wahlverzeichnis geladen: '"+chooser.getSelectedFile().getName()+"'.");
+//				int i = DataMerger.getInstance().loadPeopleFile(chooser.getSelectedFile().getAbsolutePath());
+////				convertLogMessageFromReader(i);
+//				model.readPeopleData(DataMerger.getInstance().readPeopleFile());
+////				view.loadComboBoxContent(model.getDistrictNames());
+////				if(i != 0) {
+////					view.clear();
+////				} else {
+////					loadData();
+////					printData();
+////				}
+//			}
 		
-		}
+//		}
  
-    }
+//    }
 
 }
