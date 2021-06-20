@@ -9,6 +9,8 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import main.Person;
+import main.NameComparator;
+import main.DHBWComparator;
 
 
 public class View extends JFrame {
@@ -40,9 +42,17 @@ public class View extends JFrame {
 		contentPane.add(list);
 	}
 	
-	public void print(ArrayList<Person> list) {
+	public void printPeople(ArrayList<Person> list) {
+		list.sort(new NameComparator());
 		this.list.clear();
-		//TODO list.sort.comperator
+		for(Person p : list) {
+			this.list.add(p.toString());
+		}
+	}
+	
+	public void printDHBW(ArrayList<Person> list) {
+		list.sort(new DHBWComparator());
+		this.list.clear();
 		for(Person p : list) {
 			this.list.add(p.toString());
 		}
