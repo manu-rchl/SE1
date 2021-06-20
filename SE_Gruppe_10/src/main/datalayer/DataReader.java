@@ -22,7 +22,7 @@ public class DataReader {
 		people = new ArrayList<>();
 		dhbw = new ArrayList<>();
 	}
-	
+	//Hallo
 	public int loadData(String path) {
 		System.out.println("DR loadData");
 		people.clear();
