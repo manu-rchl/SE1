@@ -28,12 +28,18 @@
   <component name="ChangeListManager">
     <list default="true" id="28f56bb2-ae4c-4888-b42b-e69902abccdf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/DataReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -110,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624223009996</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hallo">
+      <created>1624223275094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624223275094</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hallo">
+      <created>1624223455624</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624223455624</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,10 +165,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="407" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1624223144872" />
-    <state x="233" y="60" key="Vcs.Push.Dialog.v2" timestamp="1624223013776">
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2" timestamp="1624223458483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1624223013776" />
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1624223458483" />
     <state x="90" y="0" key="new project wizard" timestamp="1624223102461">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
