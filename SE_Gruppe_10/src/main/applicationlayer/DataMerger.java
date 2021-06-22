@@ -2,12 +2,13 @@ package main.applicationlayer;
 
 import java.util.ArrayList;
 
+import main.Main;
 import main.Person;
 import main.datalayer.DataReader;
 
 
 
-public class DataMerger {
+public class DataMerger extends Main {
 	
 	private static DataMerger dm;
 	private ArrayList<Person> people;
