@@ -27,11 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28f56bb2-ae4c-4888-b42b-e69902abccdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/DHBWFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/PersonReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/CSVFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/CSVFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/SE_Gruppe_10/src/main/datalayer/DataReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CSVFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.datalayer.CSVFile" />
       <module name="SE1" />
@@ -94,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="SE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CSVFile" />
       </list>
     </recent_temporary>
@@ -172,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624356818327</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Eigener Data Reader">
+      <created>1624364943765</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624364943766</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Eigener Data Reader">
+      <created>1624365130423</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1624365130423</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,17 +227,18 @@
     <MESSAGE value="Hallo" />
     <MESSAGE value="EigenerDataReader wurde gelöscht" />
     <MESSAGE value="Beide Test Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beide Test Files" />
+    <MESSAGE value="Eigener Data Reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eigener Data Reader" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="121" y="0" key="#Project_Structure" timestamp="1624297669415">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1624367073938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624297669415" />
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624298173188">
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624367073938" />
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624365438175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624298173188" />
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624365438175" />
     <state x="407" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624223144872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -222,6 +247,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="57" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624297668248" />
+    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1624365382385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624365382385" />
     <state x="441" y="43" key="RollbackChangesDialog" timestamp="1624358612647">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -230,15 +259,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624300935757" />
-    <state x="233" y="60" key="Vcs.Push.Dialog.v2" timestamp="1624356825160">
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2" timestamp="1624365132615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624356825160" />
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624365132615" />
     <state x="233" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1624223458483" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624356373731">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624365409082">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624356373731" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1680.1010@0.0.1280.680" timestamp="1624365409082" />
     <state x="90" y="0" key="new project wizard" timestamp="1624223102461">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
