@@ -14,12 +14,12 @@ import main.NameComparator;
 import main.DHBWComparator;
 
 
-@SuppressWarnings("deprecation")
+//@SuppressWarnings("deprecation")
 public class View extends JFrame {
 
-	private static final long serialVersionUID = 1L;
+//	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-	@SuppressWarnings("unused")
+//	@SuppressWarnings("unused")
 	private Controller c;
 	private List list;
 	
@@ -27,24 +27,24 @@ public class View extends JFrame {
 		
 		this.c = c;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 344, 344);
+		setBounds(100, 100, 481, 452);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		JButton btnLoadPeople = new JButton("Personenkartei laden");
-		btnLoadPeople.setBounds(10, 11, 150, 23);
+		btnLoadPeople.setBounds(10, 11, 220, 23);
 		btnLoadPeople.addActionListener(c.new LoadPersonData());
 		contentPane.add(btnLoadPeople);
 		
 		JButton btnLoadDHBW = new JButton("DHBW-Kartei laden");
-		btnLoadDHBW.setBounds(170, 11, 150, 23);
+		btnLoadDHBW.setBounds(235, 11, 220, 23);
 		btnLoadDHBW.addActionListener(c.new LoadDHBWData());
 		contentPane.add(btnLoadDHBW);
 		
 		list = new List();
-		list.setBounds(10, 40, 308, 255);
+		list.setBounds(10, 40, 445, 363);
 		contentPane.add(list);
 		
 	}
