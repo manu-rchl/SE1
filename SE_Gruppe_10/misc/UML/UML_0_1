@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T13:30:25.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="YF3Dc5CT450GiN4gaLok" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T13:30:57.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="FaFkb_F4DU4Tf2Aa5i_I" version="14.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1164" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="191" dy="1261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="k9oOkS-8LfFI14OTW1b7-133" value="" style="swimlane;startSize=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1730" y="110" width="625" height="449" as="geometry" />
+          <mxGeometry x="1730" y="110" width="520" height="370" as="geometry" />
         </mxCell>
         <mxCell id="k9oOkS-8LfFI14OTW1b7-292" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;DataMerger&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;.../application&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="k9oOkS-8LfFI14OTW1b7-133" vertex="1">
           <mxGeometry x="20" y="20" width="480" height="240" as="geometry" />
@@ -18,9 +18,6 @@
         </mxCell>
         <mxCell id="k9oOkS-8LfFI14OTW1b7-295" value="&lt;font style=&quot;font-size: 10px&quot;&gt;+ &lt;u&gt;DataMerger getInstance(): DataMerger&lt;br&gt;&lt;/u&gt;+ readPeopleFile(): ArrayList&amp;lt;Person&amp;gt;&lt;br&gt;+ loadPeopleFile(String): int&lt;br&gt;+ readDHBWFile(): ArrayList&amp;lt;Person&amp;gt;&lt;br&gt;+ loadDHBWFile(String): int&lt;br&gt;+ mergeLists(allPeople: ArrayList&amp;lt;Person&amp;gt;,DHBWData: ArrayList&amp;lt;Person&amp;gt;): ArrayList&amp;lt;Person&amp;gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="k9oOkS-8LfFI14OTW1b7-292" vertex="1">
           <mxGeometry y="118" width="480" height="122" as="geometry" />
-        </mxCell>
-        <mxCell id="LvD0iB55QSxOdV3SKESG-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px&quot;&gt;Beziehungen &amp;amp; Kardinalitäten müssen noch ergänzt werden!!!&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="k9oOkS-8LfFI14OTW1b7-133">
-          <mxGeometry x="270" y="239" width="355" height="210" as="geometry" />
         </mxCell>
         <mxCell id="k9oOkS-8LfFI14OTW1b7-217" value="" style="swimlane;startSize=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1655" y="578" width="670" height="300" as="geometry">
@@ -245,6 +242,9 @@
             <mxPoint x="2240.0000000000005" y="441.2" as="sourcePoint" />
             <mxPoint x="2319.6400000000003" y="479.99999999999994" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LvD0iB55QSxOdV3SKESG-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px&quot;&gt;Beziehungen &amp;amp; Kardinalitäten müssen noch ergänzt werden!!!&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2420" y="510" width="355" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
