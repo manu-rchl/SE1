@@ -2,7 +2,7 @@ package main;
 
 import java.util.Comparator;
 
-public class DHBWComparator  implements Comparator<Person>{
+public class DHBWComparator implements Comparator<Person>{
 	
 	@Override
 	public int compare(Person p1, Person p2) {
