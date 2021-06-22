@@ -3,9 +3,8 @@ package main.applicationlayer;
 import java.util.ArrayList;
 
 import main.Person;
-import main.datalayer.DataReader;
-
-
+import main.datalayer.DataReaderPeople;
+import main.datalayer.DataReaderDHBW;
 
 public class DataMerger {
 	
@@ -20,45 +19,31 @@ public class DataMerger {
 	}
 
 	public ArrayList<Person> readPeopleFile() {
-		System.out.println("DM readPeopleFile");
-		people = DataReader.getInstance().readData();
-		System.out.println(people.size());
-		for(Person p : people) {
-			System.out.println(p.toString());
-		}
+		people = DataReaderPeople.getInstance().readData();
 		return people;
 	}
 
 	public int loadPeopleFile(String absolutePath) {
-		System.out.println("DM loadPeopleFile");
-		return DataReader.getInstance().loadData(absolutePath);
+		return DataReaderPeople.getInstance().loadData(absolutePath);
 	}
 
 	public ArrayList<Person> readDHBWFile() {
-		System.out.println("DM readDHBWFile");
-		dhbw = DataReader.getInstance().readDataDHBW();
+		dhbw = DataReaderDHBW.getInstance().readDataDHBW();
 		return mergeLists(people, dhbw);
 	}
 
 	public int loadDHBWFile(String absolutePath) {
-		System.out.println("DM loadDHBWFile");
-		return DataReader.getInstance().loadDataDHBW(absolutePath);
+		boolean peopleDataExists = false;
+		if(people != null)
+			peopleDataExists = true;
+		return DataReaderDHBW.getInstance().loadDataDHBW(peopleDataExists, absolutePath);
 	}
 	
 	public ArrayList<Person> mergeLists(ArrayList<Person> allPeople, ArrayList<Person> DHBWData) {
-		for(Person p : allPeople) {
-			System.out.println(p.toString());
-		}
 		ArrayList<Person> dhbw = new ArrayList<>();
-		System.out.println("Merge: People - "+allPeople.size()+", DHBW - "+DHBWData.size());
 		for(Person d : DHBWData) {
-			System.out.println("D= "+d.getID()+" "+d.getPosition()+" "+d.getArgument());
 			for(Person p : people) {
-				System.out.println("P= "+p.getID()+" "+p.getName());
 				if(p.getID() == d.getID()) {
-					System.out.println("Match gefunden:");
-					System.out.println(d.toString());
-					System.out.println(p.toString());
 					Person dhbwPerson = new Person(p.getID());
 					dhbwPerson.setName(p.getName());
 					dhbwPerson.setPosition(d.getPosition());
