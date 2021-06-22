@@ -14,9 +14,12 @@ import main.NameComparator;
 import main.DHBWComparator;
 
 
+@SuppressWarnings("deprecation")
 public class View extends JFrame {
 
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	@SuppressWarnings("unused")
 	private Controller c;
 	private List list;
 	
@@ -46,9 +49,10 @@ public class View extends JFrame {
 		
 	}
 	
+	
 	public void printPeople(ArrayList<Person> list) {
 		list.sort(new NameComparator());
-		this.list.clear();
+		this.list.removeAll();
 		for(Person p : list) {
 			this.list.add(p.toString());
 		}
@@ -56,7 +60,7 @@ public class View extends JFrame {
 	
 	public void printDHBW(ArrayList<Person> list) {
 		list.sort(new DHBWComparator());
-		this.list.clear();
+		this.list.removeAll();
 		for(Person p : list) {
 			this.list.add(p.toString());
 		}

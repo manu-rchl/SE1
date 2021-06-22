@@ -1,14 +1,11 @@
 package main.presentationlayer;
 
-import java.util.ArrayList;
-
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import main.Person;
 import main.applicationlayer.DataMerger;
 
 public class Controller {
@@ -39,7 +36,6 @@ public class Controller {
 	public void startApplication() {
 		view = new View(this);
 		view.setVisible(true);
-//		test();
 	}
 	
 	public void printError(int i) {
@@ -54,20 +50,6 @@ public class Controller {
 		} 
 	}
 	
-//	public void test() {
-//		DataMerger.getInstance().loadPeopleFile("");
-//		model.readPeopleData(DataMerger.getInstance().readPeopleFile());
-//		view.printPeople(model.getPeopleData());
-//		DataMerger.getInstance().loadDHBWFile("");
-//		model.readDHBWData(DataMerger.getInstance().readDHBWFile());
-//		ArrayList<Person> people = model.getDHBWData();
-//		System.out.println("Fertige DHBW Daten ("+people.size()+")");
-//		for(Person p : people) {
-//			System.out.println(p.toString());
-//		}
-//		view.printDHBW(model.getDHBWData());
-//	}
-	
 	public class LoadPersonData implements ActionListener{
 		
 		public LoadPersonData() {}
@@ -75,10 +57,10 @@ public class Controller {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JFileChooser chooser = new JFileChooser();
-			chooser.showDialog(null, ".csv Datei auswählen");
+//			chooser.showDialog(null, ".csv Datei auswählen");
 			chooser.setCurrentDirectory(new java.io.File("."));
-			chooser.setAcceptAllFileFilterUsed(false);
 			chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+			chooser.setAcceptAllFileFilterUsed(false);
 			chooser.addChoosableFileFilter(new FileNameExtensionFilter(".csv", "csv", "CSV Datei", "CSV File"));
 			int rueckgabeWert = chooser.showOpenDialog(null);
 			if(rueckgabeWert == JFileChooser.APPROVE_OPTION){
@@ -98,10 +80,10 @@ public class Controller {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JFileChooser chooser = new JFileChooser();
-			chooser.showDialog(null, ".csv Datei auswählen");
+//			chooser.showDialog(null, ".csv Datei auswählen");
 			chooser.setCurrentDirectory(new java.io.File("."));
-			chooser.setAcceptAllFileFilterUsed(false);
 			chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+			chooser.setAcceptAllFileFilterUsed(false);
 			chooser.addChoosableFileFilter(new FileNameExtensionFilter(".csv", "csv", "CSV Datei", "CSV File"));
 			int rueckgabeWert = chooser.showOpenDialog(null);
 			if(rueckgabeWert == JFileChooser.APPROVE_OPTION){
