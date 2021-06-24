@@ -42,7 +42,7 @@ public class DataMerger {
 	public ArrayList<Person> mergeLists(ArrayList<Person> allPeople, ArrayList<Person> DHBWData) {
 		ArrayList<Person> dhbw = new ArrayList<>();
 		for(Person d : DHBWData) {
-			for(Person p : people) {
+			for(Person p : allPeople) {
 				if(p.getID() == d.getID()) {
 					Person dhbwPerson = new Person(p.getID());
 					dhbwPerson.setName(p.getName());

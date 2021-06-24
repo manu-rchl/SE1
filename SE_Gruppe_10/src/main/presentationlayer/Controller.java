@@ -57,17 +57,18 @@ public class Controller {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JFileChooser chooser = new JFileChooser();
-//			chooser.showDialog(null, ".csv Datei auswählen");
 			chooser.setCurrentDirectory(new java.io.File("."));
 			chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
 			chooser.setAcceptAllFileFilterUsed(false);
 			chooser.addChoosableFileFilter(new FileNameExtensionFilter(".csv", "csv", "CSV Datei", "CSV File"));
-			int rueckgabeWert = chooser.showOpenDialog(null);
-			if(rueckgabeWert == JFileChooser.APPROVE_OPTION){
-				int success = DataMerger.getInstance().loadPeopleFile(chooser.getSelectedFile().getAbsolutePath());
-				printError(success);
-				model.readPeopleData(DataMerger.getInstance().readPeopleFile());
-				view.printPeople(model.getPeopleData());
+			int i = chooser.showOpenDialog(null);
+			if(i == JFileChooser.APPROVE_OPTION){
+				int errorcode = DataMerger.getInstance().loadPeopleFile(chooser.getSelectedFile().getAbsolutePath());
+				printError(errorcode);
+				if(errorcode == 0) {
+					model.readPeopleData(DataMerger.getInstance().readPeopleFile());
+					view.printPeople(model.getPeopleData());
+				}
 			}
 			
 		}
@@ -80,16 +81,15 @@ public class Controller {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JFileChooser chooser = new JFileChooser();
-//			chooser.showDialog(null, ".csv Datei auswählen");
 			chooser.setCurrentDirectory(new java.io.File("."));
 			chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
 			chooser.setAcceptAllFileFilterUsed(false);
 			chooser.addChoosableFileFilter(new FileNameExtensionFilter(".csv", "csv", "CSV Datei", "CSV File"));
-			int rueckgabeWert = chooser.showOpenDialog(null);
-			if(rueckgabeWert == JFileChooser.APPROVE_OPTION){
-				int success = DataMerger.getInstance().loadDHBWFile(chooser.getSelectedFile().getAbsolutePath());
-				printError(success);
-				if(success != 4) {
+			int i = chooser.showOpenDialog(null);
+			if(i == JFileChooser.APPROVE_OPTION){
+				int errorcode = DataMerger.getInstance().loadDHBWFile(chooser.getSelectedFile().getAbsolutePath());
+				printError(errorcode);
+				if(errorcode == 0) {
 					model.readDHBWData(DataMerger.getInstance().readDHBWFile());
 					view.printDHBW(model.getDHBWData());
 				}

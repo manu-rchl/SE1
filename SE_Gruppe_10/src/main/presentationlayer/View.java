@@ -12,14 +12,15 @@ import javax.swing.border.EmptyBorder;
 import main.Person;
 import main.NameComparator;
 import main.DHBWComparator;
+import javax.swing.JLabel;
+import java.awt.Font;
+import java.awt.Color;
 
 
-//@SuppressWarnings("deprecation")
 public class View extends JFrame {
 
-//	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-//	@SuppressWarnings("unused")
+	@SuppressWarnings("unused")
 	private Controller c;
 	private List list;
 	
@@ -27,25 +28,35 @@ public class View extends JFrame {
 		
 		this.c = c;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 481, 452);
+		setBounds(100, 100, 481, 543);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		JButton btnLoadPeople = new JButton("Personenkartei laden");
-		btnLoadPeople.setBounds(10, 11, 220, 23);
+		btnLoadPeople.setBounds(10, 90, 220, 38);
 		btnLoadPeople.addActionListener(c.new LoadPersonData());
 		contentPane.add(btnLoadPeople);
 		
 		JButton btnLoadDHBW = new JButton("DHBW-Kartei laden");
-		btnLoadDHBW.setBounds(235, 11, 220, 23);
+		btnLoadDHBW.setBounds(235, 90, 220, 38);
 		btnLoadDHBW.addActionListener(c.new LoadDHBWData());
 		contentPane.add(btnLoadDHBW);
 		
 		list = new List();
-		list.setBounds(10, 40, 445, 363);
+		list.setBounds(10, 134, 445, 360);
 		contentPane.add(list);
+		
+		JLabel lblNewLabel = new JLabel("DHBW-Personen-Kartei");
+		lblNewLabel.setForeground(Color.BLACK);
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 24));
+		lblNewLabel.setBounds(10, 11, 445, 38);
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("Bitte erst eine Personenkartei ausw\u00E4hlen, dann eine DHBW-Kartei");
+		lblNewLabel_1.setBounds(10, 47, 377, 32);
+		contentPane.add(lblNewLabel_1);
 		
 	}
 	
@@ -67,9 +78,7 @@ public class View extends JFrame {
 	}
 
 	public void showErrorPopup(String s) {
-		JOptionPane.showInternalMessageDialog(this,s);
+		JOptionPane.showMessageDialog(this,s);
 		
 	}
-	
-
 }

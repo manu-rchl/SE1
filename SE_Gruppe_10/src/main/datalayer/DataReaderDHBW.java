@@ -27,6 +27,7 @@ public class DataReaderDHBW {
 			return 4;
 		}
 		Person p = null;
+		dhbw.clear();
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(path));
 			if(path.endsWith(".csv")) {
