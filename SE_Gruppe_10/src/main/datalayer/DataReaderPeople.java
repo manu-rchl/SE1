@@ -1,7 +1,6 @@
 package main.datalayer;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -24,6 +23,7 @@ public class DataReaderPeople {
 	}
 	
 	public int loadData(String path) {
+		people.clear();
 		Person p = null;
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(path));
