@@ -43,7 +43,22 @@ public class Person {
 	}
 	
 	public String toString() {
-		return this.id + " - " + this.getName() + " | Position: " + this.getPosition() + ", Arg: " + this.getArgument();
+		String p = null;
+		String a = null;
+		if(this.position == 'S') {
+			p = "Student:in";
+			a = "Notendurchschnitt";
+		} else {
+			p = "Dozent:in";
+			a = "Anzahl Vorlesungen";
+		}
+		if(this.arg == 0)
+			return this.id + "\t - "+this.getName();
+		else if(this.name == null){
+			return this.id + "\t"+" - "+p+":\t"+a+": "+this.arg; 
+		} else {
+			return this.id + "\t"+" - "+this.getName()+"\t | "+p+" - \t"+a+": "+this.arg; 
+		}
 	}
 	
 }

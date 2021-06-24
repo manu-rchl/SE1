@@ -14,8 +14,10 @@ public class DHBWComparator implements Comparator<Person>{
 			
 		}
 		if(p1.getPosition() == 'S') {
-			if(p1.getArgument() - p2.getArgument() != 0) {
-				return (int) (p1.getArgument() - p2.getArgument());
+			if(p1.getArgument() < p2.getArgument()) {
+				return -1;
+			}else if(p1.getArgument() > p2.getArgument()) {
+				return 1;				
 			}
 			if(p1.getName().compareTo(p2.getName()) != 0) {
 				return p1.getName().compareTo(p2.getName());
@@ -26,7 +28,7 @@ public class DHBWComparator implements Comparator<Person>{
 		
 		}else if(p1.getPosition() == 'D')
 			if(p1.getArgument() - p2.getArgument() != 0) {
-				return (int) (p1.getArgument() - p2.getArgument());
+				return (int) (p2.getArgument() - p1.getArgument());
 			}
 			if(p1.getName().compareTo(p2.getName()) != 0) {
 				return p1.getName().compareTo(p2.getName());
