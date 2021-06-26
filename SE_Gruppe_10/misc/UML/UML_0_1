@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T14:17:18.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="2yWsum-CuOClmIFP2syF" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T14:48:16.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="rIlAEYcYTfppBIFmhCyE" version="14.8.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="873" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,6 +204,24 @@
             <mxPoint x="2260" y="285.8600000000001" as="sourcePoint" />
             <mxPoint x="2360" y="285" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="beM5JC0bnM7vPQoSZdwk-4" value="requests data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1505" y="90" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="beM5JC0bnM7vPQoSZdwk-5" value="returns list and errorcode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1550" y="212" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="beM5JC0bnM7vPQoSZdwk-6" value="" style="endArrow=classic;html=1;exitX=-0.005;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k9oOkS-8LfFI14OTW1b7-295" target="k9oOkS-8LfFI14OTW1b7-353">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="270" as="sourcePoint" />
+            <mxPoint x="1610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beM5JC0bnM7vPQoSZdwk-7" value="returns list and errorcode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2230" y="170" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="beM5JC0bnM7vPQoSZdwk-8" value="everyone has access to these datamodels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1890" y="368" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
