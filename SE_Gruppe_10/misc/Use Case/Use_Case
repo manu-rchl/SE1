@@ -1,47 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T12:53:24.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="oB3-2KiC25h0YYwXseum" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T13:45:24.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="-60-DOIZPSI5Q_cK37EB" version="14.8.1" type="github">
   <diagram id="GTIZqaYKubCmycgj9Qz0" name="Page-1">
-    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="USFecen_1MpEIfPmY53b-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="USFecen_1MpEIfPmY53b-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="330" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="USFecen_1MpEIfPmY53b-3" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="360" as="sourcePoint" />
             <mxPoint x="320" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-6" value="Programm öffnen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USFecen_1MpEIfPmY53b-6" target="USFecen_1MpEIfPmY53b-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USFecen_1MpEIfPmY53b-6" value="Programm öffnen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="USFecen_1MpEIfPmY53b-7" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="359.71" as="sourcePoint" />
             <mxPoint x="480" y="359.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-8" value="Wählt Peopledatei aus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USFecen_1MpEIfPmY53b-8" target="USFecen_1MpEIfPmY53b-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USFecen_1MpEIfPmY53b-8" value="Wählt Personenkartei aus" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="USFecen_1MpEIfPmY53b-10" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="359.71000000000004" as="sourcePoint" />
             <mxPoint x="640" y="359.71000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-11" value="Peopledatei laden" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-3" value="Personenkartei anzeigen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-12" value="Peopleliste erstellen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-7" value="Wählt DHBW-kartei aus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="USFecen_1MpEIfPmY53b-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="359.71000000000004" as="sourcePoint" />
-            <mxPoint x="800" y="359.71000000000004" as="targetPoint" />
+            <mxPoint x="760" y="359.58000000000004" as="sourcePoint" />
+            <mxPoint x="800" y="359.58000000000004" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-9" value="Gemergede Liste anzeigen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="359.58000000000015" as="sourcePoint" />
+            <mxPoint x="960" y="359.58000000000015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-11" value="Listen werden gemerged" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="359.58000000000015" as="sourcePoint" />
+            <mxPoint x="1120" y="359.58000000000015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ie3V5PAlHBUDeHD9vtp-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="320" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
