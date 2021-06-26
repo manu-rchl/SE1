@@ -1,26 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T22:30:46.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="WJ1zeWcVta_aoeJwvx-3" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T13:35:15.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="yuAS-TT4mq7b1Xwd1zO9" version="14.8.1" type="github">
   <diagram id="wc_iNOf1HoAX3hDXFNCZ" name="Page-1">
-    <mxGraphModel dx="1182" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2044" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aPWQ8EO4A877GXkCU_MV-1" value="Window Title" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="aPWQ8EO4A877GXkCU_MV-1" value="DHBW-Personen-Kartei" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="130" y="140" width="400" height="380" as="geometry" />
         </mxCell>
         <mxCell id="aPWQ8EO4A877GXkCU_MV-3" value="Pesonenkartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="160" y="180" width="130" height="40" as="geometry" />
+          <mxGeometry x="160" y="180" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aPWQ8EO4A877GXkCU_MV-5" value="DHBW-Kartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="349" y="180" width="130" height="40" as="geometry" />
+          <mxGeometry x="340" y="180" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aPWQ8EO4A877GXkCU_MV-6" value="" style="swimlane;startSize=0;strokeColor=#000000;fillColor=#ffffff;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="150" y="240" width="360" height="260" as="geometry" />
+          <mxGeometry x="150" y="240" width="360" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="aPWQ8EO4A877GXkCU_MV-7" value="1 - Colin | Position: S, Durchschnitt: 5,0&lt;br&gt;2 - Lisa | Position: S, Durchschnitt: 1 ,2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="250" width="330" height="20" as="geometry" />
+        <mxCell id="6wsF2sg7JqF7k21HW-id-1" value="Bitte erst eine Personenkartei auswählen, dann eine DHBW-Kartei" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="360" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="KLW8SJRQMgWlA3jv_Rjg-1" value="Listener Hinter den Buttons&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="6wsF2sg7JqF7k21HW-id-35" value="DHBW-Personen-Kartei" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="400" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-36" value="Pesonenkartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-37" value="DHBW-Kartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-38" value="" style="swimlane;startSize=0;strokeColor=#000000;fillColor=#ffffff;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-39" value="12 - Ahmet&amp;nbsp;&lt;br&gt;15 - Ali&amp;nbsp;&lt;br&gt;20 - Amrita&lt;br&gt;18 - Andreas&lt;br&gt;7 - Bint&amp;nbsp;&lt;br&gt;8 - Colin&lt;br&gt;13 -Erick&amp;nbsp;&lt;br&gt;11 - Flauschii&amp;nbsp;&lt;br&gt;5 - Hans&lt;br&gt;6 - Jan" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-40" value="Bitte erst eine Personenkartei auswählen, dann eine DHBW-Kartei" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="360" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-41" value="DHBW-Personen-Kartei" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="140" width="400" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-42" value="Pesonenkartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-43" value="DHBW-Kartei laden" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-44" value="" style="swimlane;startSize=0;strokeColor=#000000;fillColor=#ffffff;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-45" value="7 - Bint | Student:in - Notendurschnitt; 1.9&lt;br&gt;9 -Kelb | Student:in - Notendurschnitt: 2.0&lt;br&gt;8 -Colin | Dozent:in - Anzahl Vorlesungen: 44.0&lt;br&gt;18 -Andreas | Dozent:in - Anzahl Vorlesungen: 28.0&amp;nbsp;&lt;br&gt;12 -Ahmet | Dozent:in - Anzahl Vorlesungen: 22.0&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6wsF2sg7JqF7k21HW-id-44">
+          <mxGeometry x="10" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6wsF2sg7JqF7k21HW-id-46" value="Bitte erst eine Personenkartei auswählen, dann eine DHBW-Kartei" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="230" width="360" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
